@@ -1,0 +1,32 @@
+<html>
+<body>
+	<h1>JAX-RS Upload Form</h1>
+
+	<form action="http://localhost:8080/integradorAlfresco/rest/contenido/create/documento/documentoRHHH/new" method="post" enctype="multipart/form-data">
+
+	   <p>
+		Select a file : <input type="file" name="uploadedFile" size="200" />
+	   </p>
+		<p>
+		Select a parentObjetId : <input type="text" name="parentObjetId" value="workspace://SpacesStore/35dc0022-3db9-4bb1-9ccb-c80eb71e0112" />
+	   </p>
+	   
+	   <p>
+		Select a name : <input type="text" name="name" value="contratojoseangel.pdf" />
+	   </p>
+	   
+	    <p>
+		Select a descripcion : <input type="text" name="descripcion" value="pedazo de contrato" />
+	   </p>
+	   <p>
+		Select a tipoDocumental : <input type="text" name="tipoDocumental" value="contrato" />
+	   </p>
+	   
+	   
+	   <input type="submit" value="Upload It" />
+	</form>
+
+</body>
+</html>
+
+
